@@ -26,8 +26,8 @@ RUN apt-get update -y \
     && chmod g+x conf \
     && chown -R tomcat webapps/ work/ temp/ logs/ \
     # Install Netflix Conductor
-    && mkdir netflix \
-    && cd netflix \
+    && mkdir /netflix \
+    && cd /netflix \
     && git clone https://github.com/Netflix/conductor.git \
     && cd conductor
 
