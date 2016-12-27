@@ -12,7 +12,7 @@ Use the following command:
 
 NOTE: The gradle build process will not exit (as it is running the server)
 
-Browse to `localhost:3000` for the UI and `localhost:8080/swagger-ui` for the swagger docs
+Browse to [http://localhost:3000](http://localhost:3000) for the UI and [http://localhost:8080/swagger-ui](http://localhost:8080/swagger-ui) for the swagger docs
 
 ## Building from Source
 Clone the repo:
